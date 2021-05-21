@@ -3,13 +3,11 @@ html{
     margin: 0px;
     padding: 0px;
     height: 100%;
-    border: 1px solid red;
 }
 
 body{
     margin: 0px;
     height: 100%;
-    border: 1px solid black;
 }
 
 ul li a{
@@ -40,24 +38,25 @@ ul{
 
 #aboutme{
     display: flex;
-    background-color: aqua;
     margin: 0px;
     padding: 0%;
 }
 
 .bodywithsexypic{
-    background-color: yellow;
     padding: 20%;
+    width: 20%;
+}
+
+img{
+    margin: 0px;
     width: 50%;
+    height: 20%;
 }
 .bodywithaboutme{
-    background-color: red;
     padding: 20%;
-    width: 50%;
+    width: 80%;
 }
 
 footer{
     text-align: center;
-    padding: 3% 0;
-    border: 1px solid black;
 }
